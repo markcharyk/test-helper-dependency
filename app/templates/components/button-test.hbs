@@ -1,0 +1,5 @@
+{{#if buttonIsClicked}}
+  <div data-test-destroyed-button>Congrats, you have destroyed the button</div>
+{{else}}
+  <button class="ember-power-select-trigger" onclick={{action 'onButtonClick'}}>DESTROY</button>
+{{/if}}
